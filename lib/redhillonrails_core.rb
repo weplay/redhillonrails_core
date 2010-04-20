@@ -32,7 +32,7 @@ module ActiveRecord
         ActiveRecord::ConnectionAdapters::SQLite3Adapter.send(:include, RedHillConsulting::Core::ActiveRecord::ConnectionAdapters::Sqlite3Adapter)
       end
       
-      @__redhill_on_rails_core_loaded == true
+      @__redhill_on_rails_core_loaded = true
     end
   end
     
