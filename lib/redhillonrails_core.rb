@@ -1,4 +1,8 @@
 require 'active_record/migration'
+require 'red_hill_consulting/core/active_record/base'
+require 'red_hill_consulting/core/active_record/schema'
+require 'red_hill_consulting/core/active_record/schema_dumper'
+require 'red_hill_consulting/core/active_record/connection_adapters'
 
 module ActiveRecord
   class Migrator
